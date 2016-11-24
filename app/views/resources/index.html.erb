@@ -15,7 +15,7 @@
   <tbody>
     <% @resources.each do |resource| %>
       <tr>
-        <td><%= resource.link %></td>
+        <td><%= link_to resource.link %></td>
         <td><%= resource.resource_type %></td>
         <td><%= resource.description %></td>
         <td><%= link_to 'Show', resource %></td>
